@@ -1,4 +1,4 @@
-filename=`python /home/data/jymdata/auto_spider_apk/pubg/dlwangzhe.py`
+filename=`python3 /home/data/jymdata/auto_spider_apk/pubg/dlwangzhe.py`
 name=`/home/fujianfeng/android-9/aapt dump badging /home/data/jymdata/auto_spider_apk/pubg/$filename|grep package|grep -oP name=\'.*?\'|grep -o \'.*\'`
 version_code=`/home/fujianfeng/android-9/aapt dump badging /home/data/jymdata/auto_spider_apk/pubg/$filename|grep package|grep -oP versionCode=\'.*?\'|grep -o \'.*\'`
 version_name=`/home/fujianfeng/android-9/aapt dump badging /home/data/jymdata/auto_spider_apk/pubg/$filename|grep package|grep -oP VersionName=\'.*?\'|grep -o \'.*\'`
