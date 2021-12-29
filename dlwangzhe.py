@@ -13,6 +13,6 @@ print(filename)
 if os.path.exists(filename):
     pass
 else:
-    with open("/home/data/jymdata/auto_spider_apk/pubg/"+filename,"wb") as f:
+    with open("/home/data/jymdata/auto_spider_apk/wangzhe/"+filename,"wb") as f:
         f.write(requests.get(url).content)
 res.close()
